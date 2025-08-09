@@ -1,0 +1,20 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node / npm
+node_modules/
+package-lock.json
+
+# SASS cache
+.sass-cache/
+
+# Editor
+.vscode/
+.idea/
+
+# Builds
+css/styles.css.map
