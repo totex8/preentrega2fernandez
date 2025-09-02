@@ -4,54 +4,71 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nosotros - TitanCore: Armamos PCs personalizadas para gamers con asesoramiento profesional y componentes de alta gama.">
+  <meta name="keywords" content="TitanCore, nosotros, PC, gaming, armado de PC, componentes">
   <title>Nosotros - TitanCore</title>
+
+  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="../estilos.css" />
+  
+  <!-- Toastify -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  
+  <!-- CSS compilado -->
+  <link rel="stylesheet" href="../css/estilos.css" />
 </head>
 
 <body class="d-flex flex-column min-vh-100">
 
   <!-- NAV -->
- <nav class="navbar navbar-expand-lg navbar-dark bg-secondary sticky-top">
-  <div class="container">
-    <a class="navbar-brand" href="#">TitanCore</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
-        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-        <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
-        <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
-        <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
-      </ul>
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">TitanCore</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+          <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link active" href="nosotros.html">Nosotros</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
-  <!-- MAIN -->
+  <!-- HEADER NOSOTROS -->
+  <header class="text-center py-5 header-principal bg-dark text-white">
+    <div class="container">
+      <h1 class="titulo animar-entrada delay-1">Nosotros</h1>
+      <p class="lead animar-entrada delay-2">
+        Somos TitanCore, tu aliado en el mundo gamer. Armamos PCs personalizadas con componentes de alta gama y asesoramiento profesional.
+      </p>
+    </div>
+  </header>
+
+  <!-- CONTENIDO -->
   <main class="container my-5">
-    <h1 class="titulo text-center">Nosotros</h1>
-    <p class="parrafo text-center">
-      Somos TitanCore, tu aliado en el mundo gamer. Armamos PCs personalizadas para maximizar tu rendimiento, ya
-      sea en juegos competitivos o streaming. Usamos componentes de última generación y brindamos asesoramiento
-      técnico.
+    <p class="parrafo text-center animar-entrada delay-3">
+      TitanCore nació de la pasión por el gaming. Somos un equipo joven que entiende lo que necesita cada jugador: rendimiento, estética y precio justo.
     </p>
-    <p class="parrafo text-center">
-      TitanCore nació de la pasión por el gaming. Somos un equipo joven que entiende lo que necesita cada jugador:
-      rendimiento, estética y precio justo. Trabajamos con marcas como AMD, Intel, NVIDIA y más.
+    <p class="parrafo text-center animar-entrada delay-4">
+      Trabajamos con marcas como AMD, Intel, NVIDIA y más para ofrecer PCs personalizadas de alto rendimiento y confiabilidad.
     </p>
   </main>
 
   <!-- FOOTER -->
-  <footer class="text-center py-4 mt-auto">
-    <p>Contacto: <a href="mailto:info@titancore.com">info@titancore.com</a></p>
+  <footer class="mt-auto bg-dark text-white py-3 text-center">
+    <div class="container">
+      <p>Contacto: <a href="mailto:info@titancore.com" class="link-warning">info@titancore.com</a></p>
+    </div>
   </footer>
 
-  <!-- Bootstrap JS -->
+  <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>
 
 </html>
